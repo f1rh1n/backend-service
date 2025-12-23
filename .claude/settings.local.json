@@ -1,0 +1,34 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cat:*)",
+      "Bash(docker --version:*)",
+      "Bash(docker compose:*)",
+      "Bash(docker pull:*)",
+      "Bash(powershell -Command \"Start-Process ''C:\\\\Program Files\\\\Docker\\\\Docker\\\\Docker Desktop.exe''\")",
+      "Bash(python:*)",
+      "Bash(python3:*)",
+      "Bash(alembic upgrade:*)",
+      "Bash(powershell -Command \"cd ''c:\\\\Users\\\\Farhan khan\\\\backend service''; python -m alembic upgrade head\")",
+      "Bash(powershell -Command \"Get-Command python* | Select-Object Name\")",
+      "Bash(powershell -Command \"cd ''c:\\\\Users\\\\Farhan khan\\\\backend service''; py -m alembic upgrade head\")",
+      "Bash(powershell -Command \"cd ''c:\\\\Users\\\\Farhan khan\\\\backend service''; alembic upgrade head\")",
+      "Bash(powershell -Command \"cd ''c:\\\\Users\\\\Farhan khan\\\\backend service''; & ''C:\\\\Users\\\\Farhan khan\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python313\\\\Scripts\\\\alembic.exe'' upgrade head\")",
+      "Bash(docker exec:*)",
+      "Bash(curl:*)",
+      "Bash(py -c:*)",
+      "Bash(py -m uvicorn:*)",
+      "Bash(py -m pip install:*)",
+      "Bash(timeout 10 py:*)",
+      "Bash(powershell -Command \"netstat -ano | findstr :8000\")",
+      "Bash(powershell -Command \"taskkill /F /PID 30404\")",
+      "Bash(TOKEN=\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhMjA0MTFkMy1mZDIzLTRjYmEtODYyMC04MGM2NzgxYmMyNTIiLCJleHAiOjE3NjYzNDgxODAsInR5cGUiOiJhY2Nlc3MifQ.rtZhYQ4pImWVtSpKsjB1MHur5ypZECphpHzVdn1QKAM\")",
+      "Bash(ssh -i backend-service.pem ubuntu@13.233.120.51 \"pwd && ls -la\")",
+      "Bash(ssh:*)",
+      "Bash(powershell:*)",
+      "Bash(git add:*)",
+      "Bash(git push:*)",
+      "Bash(git commit:*)"
+    ]
+  }
+}
